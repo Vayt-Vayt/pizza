@@ -1,0 +1,111 @@
+.container {
+    max-width: 300px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+
+    img {
+        width: 260px;
+        height: 260px;
+    }
+
+    h3 {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .type_pizza {
+        text-align: center;
+        margin: 5px 0;
+        background-color: #ebfaf3;
+        border-radius: 15px;
+        padding: 5px;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 5px 0;
+
+
+            li {
+                width: 90%;
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 10px auto;
+                opacity: 0.5;
+
+                &:hover {
+                    background-color: #fff;
+                    opacity: 1;
+                }
+            }
+
+            .active {
+                opacity: 1;
+                background-color: #fff;
+            }
+        }
+
+
+    }
+
+
+
+    .price_btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 10px;
+            color: #f76f00;
+            border: 1px solid #f76f00;
+            border-radius: 20px;
+            background-color: transparent;
+            cursor: pointer;
+            height: 35px;
+
+            .opacity {
+                opacity: 0;
+             }
+
+            .amount_orders {
+                margin: 0 5px;
+                padding: 5px 10px;
+                background-color: #f76f00;
+                border-radius: 50%;
+                color: #fff;
+            }
+
+            &:hover {
+                background-color: #f76f00;
+                color: #fff;
+
+                .amount_orders {
+                    background-color: #fff;
+                    color: #f76f00;
+
+                }
+            }
+        }
+    }
+}
+
+
+.wraper {
+
+    h2 {
+        padding: 0 40px;
+    }
+
+    .pizzas {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px 10px;
+    }
+}

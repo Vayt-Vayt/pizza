@@ -1,0 +1,16 @@
+.btn {
+    max-width: 300px;
+    margin: 25px auto;
+    padding: 20px 60px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #f76f00;
+    background-color: #fff;
+    color: #f76f00;
+
+    &:hover {
+        color: #fff;
+        background-color: #f76f00;
+        border-color: transparent;
+    }
+}

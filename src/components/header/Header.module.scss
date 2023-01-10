@@ -1,0 +1,60 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #fff;
+
+    .logotype {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        cursor: pointer;
+
+        img {
+            max-width: 50px;
+            margin: 1rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin: 0;
+            margin-top: 5px;
+            padding: 0;
+        }
+
+        p {
+            margin: 0;
+            opacity: 0.5;
+        }
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    .bascet_info {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 10px;
+        margin: 0;
+        gap: 0.3rem;
+        border: 1px solid #f76f00;
+        background-color: #f76f00;
+        border-radius: 1.8rem;
+        color: #fff;
+        cursor: pointer;
+
+        img {
+            max-width: 30px;
+            margin: 3px;
+        }
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
